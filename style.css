@@ -1,5 +1,50 @@
 body {
-  background-color: red;
+  background-color: grey;
+}
+
+.photo_int_ext {
+  width: 200px;
+  height: 150px;
+}
+
+body {
+  background-color: #e0dbdb;
+}
+
+.btn_explore_photo_ext {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.btn_explore_photo_ext .explore_photo_ext {
+  width: 220px;
+  height: 51px;
+  background-color: #9797d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  color: white;
+  box-shadow: 0px 5px 5px 6px #9797d8;
+  cursor: pointer;
+}
+.btn_explore_photo_ext .explore_photo_ext:hover {
+  box-shadow: 0px 5px 2px 6px #2f2fad;
+  opacity: 0.8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+}
+header ul li {
+  margin-right: 50px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

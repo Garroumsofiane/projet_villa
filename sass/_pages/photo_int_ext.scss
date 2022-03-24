@@ -1,0 +1,22 @@
+
+.photo_int_ext{
+    width: 200px;
+    height: 150px;
+}
+body{
+    background-color: rgb(224, 219, 219);
+}
+.btn_explore_photo_ext {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-top: 30px;
+
+    .explore_photo_ext {
+    @include btn;
+    &:hover { 
+        @include btn_shadow;
+        opacity: 0.8;
+         }
+ } 
+ } 
